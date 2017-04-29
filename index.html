@@ -8,21 +8,36 @@
   <h1> Welcome to TapeCo!!!</h1>
 
     <ul >
-      <li class="navBar">
+      <li class="navBar" id="dubs">
         tape duplication
       </li>
-      <li class="navBar">
+      <li class="navBar" id="music">
         Albums we've published
       </li>
       <li class="navBar">
         about us
       </li>
     </ul>
-
+<!-- main div -->
   <div class="main">
-    <div class="content duplication">
-      <h2>Tape Duplication</h2>
+		<!-- opening message for page-->
+		<h2 class="opener">Welcome to TapeCo feel free to select a catagory from the bar above to find out about the services we offer.</h2>
+		<!-- content div for tape dubs -->
+    <div class="content dubs">
+    	<h2>Tape Duplication</h2>
+			<div class="text">
+				<p>
+					we offer many duplication services.
+				</p>
+			</div>
+			<img   class="duplication "src="dubs.jpeg" id="tapeDubPic" />
     </div>
+		<!-- content div for albums we've made -->
+		<div class=" content music" >
+			<h2>Music we have published</h2>
+		</div>
   </div>
+	<script src='jquery-3.2.0.min.js'></script>
+	<script src='script.js'></script>
 </body>
 </html>
