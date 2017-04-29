@@ -2,9 +2,23 @@ body {
 
 }
 h1 {
-  padding: 2%;
+  padding: 1%;
   font-size: 36px;
   text-align: center;
   border: solid 2px black;
 
+}
+
+div.main {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navBar {
+  width: 32%;
+  text-align: center;
+  border: solid 1px black;
+  display: inline-block;
+  padding: 7px;
 }
