@@ -9,4 +9,9 @@ $(document).ready(function(){
     $(bar).toggle();
     console.log(bar);
   });
+  // buy button handler
+  $('button.buy').click(function() {
+    var msg = $(this).attr("id");
+    alert('Would you like to buy ' + msg + '?');
+  });;
 });
